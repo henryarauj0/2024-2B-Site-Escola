@@ -32,7 +32,7 @@
     font-size: 1.5em;
 }
 .escola{
-   background-color: black;
+   background-color: white;
    display: flex;
    justify-content: center;
    align-self: center;
@@ -44,4 +44,4 @@
 .escola-imagem{
     width: 25%;
 }
-)
+
