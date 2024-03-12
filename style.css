@@ -1,4 +1,5 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,593&display=swap');
+ *{
     margin: 0;
     padding: 0;
 }
@@ -8,10 +9,12 @@
     --verde: #31572c; 
     --vermelho: #d90429;
     --amarelo: #f7b801; 
+    --fonte-texto:"truculenta","Lora", serif;
+    --fonte-titulo:"lora","Lora", serif;
 }
 
 .cabecalho{
-    background-color: #231a5b;
+    background-color: var(--azul);
     color: white;
     display: flex;
     align-items: center;
@@ -37,9 +40,11 @@
    justify-content: center;
    align-self: center;
    padding: 32px 0;
+   font-family: var(--fonte-texto)
 }
 .escola-texto-titulo{
    padding: 24px 0;
+   font-family: var(--fonte-titulo)
 }
 .escola-imagem{
     width: 25%;
