@@ -1,21 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,593&display=swap');
- *{
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+*{
     margin: 0;
     padding: 0;
 }
 
 :root{
-    --azul: #001f54;
-    --verde: #31572c; 
-    --vermelho: #d90429;
-    --amarelo: #f7b801; 
-    --fonte-texto:"truculenta","Lora", serif;
-    --fonte-titulo:"lora","Lora", serif;
+    --azul: #003049;
+    --vermelho: #D62828;
+    --amarelo-queimado: #00f736;
+    --amarelo: #FCBF49;
+    --branco: #f5f5f5;
+    --preto: #000000;
+    --fonte-texto: "Truculenta", sans-serif;
+    --fonte-titulo: "Ojuju", sans-serif;
 }
+
 
 .cabecalho{
     background-color: var(--azul);
-    color: white;
+    color: var(--amarelo-queimado);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,23 +34,80 @@
 
 .cabecalho-lista-link{
     text-decoration: none;
-    color: white;
+    color: var(--#00f736);
     margin-right: 1.5em;
     font-size: 1.5em;
 }
+
 .escola{
-   background-color: white;
-   display: flex;
-   justify-content: center;
-   align-self: center;
-   padding: 32px 0;
-   font-family: var(--fonte-texto)
+    background-color: var(--branco);
+    color: var(--preto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    font-family: var(--fonte-texto);
 }
+
 .escola-texto-titulo{
-   padding: 24px 0;
-   font-family: var(--fonte-titulo)
+    padding: 24px 0;
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
 }
+
 .escola-imagem{
     width: 25%;
 }
 
+.estudante-div-fotos{
+    width: 80%;
+    border-radius: 5%;
+}
+
+.estudante-div-icone{
+    width: 24px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+}
+.estudante-div{
+    text-align: center;
+}
+
+.estudante{
+  background: linear-gradient(#edf0f2, #003049);    
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+    font-family: var(--fonte-titulo);
+    color: var(--amarelo-queimado);
+    font-size: 2em;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.estudante-div{
+    text-align: center;
+}
+.estudante-div-nome{
+    margin: 8px 0;
+    font-family: var(--fonte-texto);
+    font-size: 1.3em ;
+}
+
+.rodape{
+    background-color: var(--preto);
+    text-align: center;
+}
+
+.rodape-logo{
+    width: 5%;
+    border-radius: 100%;
+    margin: 1em;
+    padding: 12px 0;
+}
